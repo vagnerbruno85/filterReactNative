@@ -15,17 +15,7 @@ export function FilterThree() {
     newList.sort((a, b) =>
       a.first_name > b.first_name ? 1 : b.first_name > a.first_name ? -1 : 0,
     );
-    // newList.sort((a, b) => {
-    //   if (a.first_name > b.first_name) {
-    //     return 1;
-    //   } else {
-    //     if (b.first_name > a.first_name) {
-    //       return -1;
-    //     } else {
-    //       return 0;
-    //     }
-    //   }
-    // });
+
     setList(newList);
   };
 
